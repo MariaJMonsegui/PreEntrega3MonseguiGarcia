@@ -1,0 +1,844 @@
+/*reset*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*estios generales*/
+
+body {
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+@media screen and (min-width:360px) {
+
+    /*estilos del header*/
+
+    .menu-img{
+        margin-left: 45%;
+    }
+
+    .menu-boton{
+        margin-left: 45%;
+    }
+
+    .menu-buscar{
+        display: none;
+    }
+
+   
+    .menu-sections li {
+        color: black;
+    }
+
+    .menu-sections a {
+        color: inherit;
+        font-weight: inherit;
+        font-size: inherit;
+    }
+
+    .menu-sections a {
+        text-decoration: none;
+    }
+
+    .menu-sections a:hover {
+        color: black;
+        font-weight: bold;
+    }
+
+   
+    /*estilos de main home*/
+
+    .main-tituloh1 h1 {
+        font-weight: 300;
+        text-align: center;
+        color: #262626;
+        font-size: 1rem;
+        margin-bottom: 10%;
+    }
+
+    /* estilos del main proyectos*/
+
+    .main-titulo {
+        background-color: #ddddd8;
+        height: 100px;
+        text-align: center;
+        padding-top: 2rem;
+    }
+
+    .main-titulo h1 {
+        font-weight: 300;
+        text-align: center;
+        color: #262626;
+        font-size: 20px;
+    }
+
+    .main-tituloh2 h1 {
+        font-weight: 300;
+        text-align: center;
+        color: #262626;
+        font-size: 18px;
+    }
+
+    .main-contenedor {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        margin-right: 8%;
+    }
+
+    .main-contenedor img {
+        width: 100%;
+        margin-top: 10%;
+        margin-left: 5%;
+    }
+
+    .main-contenedor a {
+        color: #262626;
+        font-weight: 300;
+        font-size: 1rem;
+        text-decoration: none;
+    }
+
+    .main-contenedor a:hover {
+        color: #ddddd8;
+        text-align: center;
+    }
+
+    .titulo-img {
+        padding: 40%;
+    }
+
+    /*estilos del main colaboraiones*/
+
+    .main-contenedor2 {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        gap: 1rem;
+
+    }
+
+    .main-contenedor2 img {
+        width: 90%;
+        margin-top: 10%;
+        margin-left: 4%;
+    }
+
+    .main-contenedor2 a {
+        color: #262626;
+        font-weight: 300;
+        font-size: 1rem;
+        text-decoration: none;
+    }
+
+    .main-contenedor2 a:hover {
+        color: #ddddd8;
+        text-align: center;
+    }
+
+
+    /*estilos del main nosotros*/
+
+    section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    section h5 {
+        text-align: center;
+        margin-top: 10%;
+        margin-bottom: 5%;
+    }
+
+    section p {
+        width: 80%;
+        text-align: justify;
+        margin-left: 10%;
+    }
+
+    .foto-nosotros {
+        display: none;
+    }
+
+    /*estilos del main contacto*/
+
+    .form-ancho {
+        width: 50%;
+        margin-left: 25%;
+        margin-top: 5%;
+    }
+
+    .form-boton {
+        background-color: #ddddd8;
+    }
+
+    /*estilos del footer*/
+
+
+    .footer-tituloh2 h2 {
+        font-weight: 300;
+        text-align: center;
+        color: #262626;
+        font-size: 2rem;
+        margin-bottom: 3rem;
+        margin-top: 3rem;
+    }
+
+    .footer-tituloh2 a {
+        color: inherit;
+        font-weight: inherit;
+        font-size: inherit;
+        text-decoration: none;
+    }
+
+    .footer-tituloh2 a:hover {
+        color: #ddddd8;
+        text-align: center;
+    }
+
+    .footer-img {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .footer-img img {
+        width: 50%;
+    }
+
+    .footer-fondo {
+        background-color: #ddddd8;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.8rem;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        margin-top: 2rem;
+    }
+
+
+    .footer-tituloh3 {
+        color: gray;
+    }
+
+    .footer-tituloh3 h3 {
+        font-weight: 500;
+        font-size: 1rem;
+        text-align: center;
+        margin-left: 20%;
+    }
+
+
+    .footer-section li {
+        color: gray;
+        font-size: 0.9rem;
+        text-align: center;
+        List-Style: none;
+        font-weight: 100;
+        margin-bottom: 1%;
+    }
+
+    .footer-wsp img {
+        width: 15%;
+        position: fixed;
+        bottom: 0;
+        right: 0;
+    }
+
+}
+
+/*mq pantallas de tablet*/
+
+@media screen and (min-width:600px) {
+
+    /*estilos header*/
+
+    .header-centrado{
+        justify-content: center;
+        margin-left: 20%;
+    }
+
+    .menu-img {
+        margin-left: 80%;
+    }
+    
+    .menu-buscar {
+        display: none;
+    }
+
+    .menu-boton{
+        margin-left: 55%;
+    }
+
+    .menu-sections {
+        font-weight: 300;
+        color: black;
+        font-size: 1rem;
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .menu-sections li {
+        text-decoration: none;
+        list-style: none;
+    }
+
+    .menu-sections a {
+        font-weight: inherit;
+        color: inherit;
+        font-size: inherit;
+        text-decoration: none;
+    }
+
+    .menu-sections a:hover {
+        color: black;
+        font-weight: bold;
+    }
+
+    /*estilos del main home*/
+
+    .main-tituloh1 h1 {
+        font-weight: 300;
+        text-align: center;
+        color: #262626;
+        font-size: 1.2rem;
+        margin-bottom: 7%;
+    }
+
+    /*estilos del main proyectos*/
+
+    .main-contenedor {
+        display: grid;
+        grid-template-columns: 3fr 3fr;
+        grid-template-rows: 4fr 4fr 4fr;
+        justify-content: center;
+        margin-right: 3%;
+    }
+
+    .img-1 {
+        width: 100%;
+    }
+
+    .img-2 {
+        width: 100%;
+    }
+
+    .img-3 {
+        width: 100%;
+
+    }
+
+    .img-4 {
+        width: 100%;
+    }
+
+    .img-5 {
+        width: 100%;
+    }
+
+    .img-6 {
+        width: 100%;
+    }
+
+    .titulo-img {
+        padding: 32%;
+    }
+
+    .main-titulo {
+        background-color: #ddddd8;
+        height: 200px;
+        text-align: center;
+        padding-top: 6rem;
+    }
+
+    .main-titulo h1 {
+        font-weight: 300;
+        text-align: center;
+        color: #262626;
+        font-size: 20px;
+    }
+
+    .main-tituloh2 h1 {
+        font-weight: 300;
+        text-align: center;
+        color: #262626;
+        font-size: 18px;
+    }
+
+    .main-contenedor img:hover {
+        transform: scale(1.01);
+    }
+
+    /*estilos del main colaboraciones*/
+
+    .main-contenedor2 {
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+        grid-template-rows: 4fr 4fr 4fr;
+        justify-content: center;
+    }
+
+    .img-11 {
+        width: 100%;
+        margin-bottom: 5%;
+        margin-left: 5%;
+    }
+
+    .img-21 {
+        width: 100%;
+        margin-bottom: 5%;
+        margin-left: 1%;
+    }
+
+    .img-31 {
+        width: 100%;
+        margin-bottom: 5%;
+
+    }
+
+    .img-41 {
+        width: 100%;
+        margin-bottom: 5%;
+        margin-left: 5%;
+    }
+
+    .img-51 {
+        width: 100%;
+        margin-bottom: 5%;
+        margin-left: 1%;
+    }
+
+    .img-61 {
+        width: 100%;
+        margin-bottom: 5%;
+
+    }
+
+    .main-titulo {
+        background-color: #ddddd8;
+        height: 200px;
+        text-align: center;
+        padding-top: 6rem;
+    }
+
+    .main-titulo h1 {
+        font-weight: 300;
+        text-align: center;
+        color: #262626;
+        font-size: 20px;
+    }
+
+    .main-tituloh1 h1 {
+        font-weight: 300;
+        text-align: center;
+        color: #262626;
+        font-size: 18px;
+    }
+
+    .main-contenedor img:hover {
+        transform: scale(1.01);
+    }
+
+    .main-contenedor2 img:hover {
+        transform: scale(1.01);
+    }
+
+    /*estilos nosotros*/
+
+     section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    section h5 {
+        text-align: center;
+        margin-top: 10%;
+        margin-bottom: 5%;
+    }
+
+    section p {
+        width: 80%;
+        text-align: justify;
+        margin-left: 10%;
+    }
+
+    .foto-nosotros {
+        display: none;
+    }
+
+    /*estilos del footer*/
+
+    .footer-tituloh2 h2 {
+        font-weight: 300;
+        text-align: center;
+        color: #262626;
+        font-size: 2rem;
+        margin-bottom: 2.5rem
+    }
+
+    .footer-tituloh2 a {
+        color: inherit;
+        font-weight: inherit;
+        font-size: inherit;
+        text-decoration: none;
+    }
+
+    .footer-tituloh2 a:hover {
+        color: #ddddd8;
+        text-align: center;
+    }
+
+    .footer-img {
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer-img img {
+        width: 33%;
+    }
+
+    .footer-tituloh3 {
+        color: gray;
+    }
+
+    .footer-tituloh3 h3 {
+        font-weight: 500;
+        font-size: 1rem;
+        text-align: center;
+        margin-left: 20%;
+    }
+
+    .footer-section li {
+        color: gray;
+        font-size: 0.2;
+        text-align: center;
+        List-Style: none;
+        font-weight: 100;
+        margin-bottom: 0.5%;
+    }
+
+    .footer-wsp img {
+        width: 15%;
+        position: fixed;
+        bottom: 0;
+        right: 0;
+    }
+
+    .footer-wsp img {
+        width: 10%;
+        position: fixed;
+        bottom: 0;
+        right: 0;
+    }
+}
+
+/*pantalla para computadora*/
+
+@media screen and (min-width:1200px) {
+
+    /*estilos header*/
+
+    .header-centrado{
+        justify-content: center;
+        margin-left: 30%;
+    }
+
+    .menu-img {
+        margin-left: 180%;
+    }
+    
+    .menu-buscar {
+        display: block;
+        margin-right: 600%;
+    }
+
+
+    .menu-sections {
+        font-weight: 300;
+        color: black;
+        font-size: 1rem;
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .menu-sections li {
+        text-decoration: none;
+        list-style: none;
+    }
+
+    .menu-sections a {
+        font-weight: inherit;
+        color: inherit;
+        font-size: inherit;
+        text-decoration: none;
+    }
+
+    .menu-sections a:hover {
+        color: black;
+        font-weight: bold;
+    }
+
+    /*estilos del main home*/
+
+    .main-tituloh1 h1 {
+        font-weight: 300;
+        text-align: center;
+        color: #262626;
+        font-size: 1.2rem;
+        margin-bottom: 7%;
+    }
+
+    /*estilos del main proyectos proyectos*/
+
+    .main-contenedor {
+        display: grid;
+        grid-template-columns: 3fr 3fr 3fr;
+        grid-template-rows: 4fr 4fr;
+        justify-content: left;
+    }
+
+    .img-1 {
+        width: 95%;
+    }
+
+    .img-2 {
+        width: 95%;
+    }
+
+    .img-3 {
+        width: 95%;
+    }
+
+    .img-4 {
+        width: 95%;
+    }
+
+    .img-5 {
+        width: 95%;
+    }
+
+    .img-6 {
+        width: 95%;
+    }
+
+    .titulo-img {
+        padding: 38%;
+    }
+
+    .main-titulo {
+        background-color: #ddddd8;
+        height: 200px;
+        text-align: center;
+        padding-top: 6rem;
+    }
+
+    .main-titulo h1 {
+        font-weight: 300;
+        text-align: center;
+        color: #262626;
+        font-size: 20px;
+    }
+
+    .main-tituloh2 h1 {
+        font-weight: 300;
+        text-align: center;
+        color: #262626;
+        font-size: 18px;
+    }
+
+    .main-contenedor img:hover {
+        transform: scale(1.01);
+    }
+
+    /*estilos del main colaboraciones*/
+
+    .main-contenedor2 {
+        display: grid;
+        grid-template-columns: 2fr 2fr 2fr;
+        grid-template-rows: 4fr 4fr;
+        justify-content: center;
+    }
+
+    .img-11 {
+        width: 100%;
+        margin-bottom: 5%;
+        margin-left: 5%;
+    }
+
+    .img-21 {
+        width: 100%;
+        margin-bottom: 5%;
+        margin-left: 1%;
+    }
+
+    .img-31 {
+        width: 100%;
+        margin-bottom: 5%;
+
+    }
+
+    .img-41 {
+        width: 100%;
+        margin-bottom: 5%;
+        margin-left: 5%;
+    }
+
+    .img-51 {
+        width: 100%;
+        margin-bottom: 5%;
+        margin-left: 1%;
+    }
+
+    .img-61 {
+        width: 100%;
+        margin-bottom: 5%;
+
+    }
+
+    .main-titulo {
+        background-color: #ddddd8;
+        height: 200px;
+        text-align: center;
+        padding-top: 6rem;
+    }
+
+    .main-titulo h1 {
+        font-weight: 300;
+        text-align: center;
+        color: #262626;
+        font-size: 20px;
+    }
+
+    .main-tituloh1 h1 {
+        font-weight: 300;
+        text-align: center;
+        color: #262626;
+        font-size: 18px;
+    }
+
+    .main-contenedor img:hover {
+        transform: scale(1.01);
+    }
+
+    .main-contenedor2 img:hover {
+        transform: scale(1.01);
+    }
+
+    /*estilos nosotros*/
+
+    .foto-nosotros {
+        display: block;
+    }
+
+    section {
+        display: grid;
+        grid-template-columns: 35% 65%;
+        grid-template-rows: 1fr 4fr;
+        grid-template-areas:
+            'h5 img'
+            'p img';
+        justify-content: center;
+        justify-items: center;
+    }
+
+    section h5 {
+        grid-area: h5;
+        margin-top: 20%;
+        text-align: center;
+        margin-left: 50%;
+    }
+
+
+    section p {
+        grid-area: p;
+        width: 100%;
+        text-align: justify;
+        margin-left: 80%;
+        margin-top: 5%;
+    }
+
+    section img {
+        grid-area: img;
+        width: 45%;
+        margin-top: 10%;
+        margin-left: 10%;
+    }
+
+    /*estilos del footer*/
+
+    .footer-tituloh2 h2 {
+        font-weight: 300;
+        text-align: center;
+        color: #262626;
+        font-size: 2rem;
+        margin-bottom: 2.5rem
+    }
+
+    .footer-tituloh2 a {
+        color: inherit;
+        font-weight: inherit;
+        font-size: inherit;
+        text-decoration: none;
+    }
+
+    .footer-tituloh2 a:hover {
+        color: #ddddd8;
+        text-align: center;
+    }
+
+    .footer-img {
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer-img img {
+        width: 16.6%;
+    }
+
+
+    .footer-tituloh3 {
+        color: gray;
+    }
+
+    .footer-tituloh3 h3 {
+        font-weight: 500;
+        font-size: 1rem;
+        text-align: center;
+        margin-left: 20%;
+    }
+
+    .footer-section li {
+        color: gray;
+        font-size: 1rem;
+        text-align: center;
+        List-Style: none;
+        font-weight: 100;
+        margin-bottom: 0.5%;
+    }
+
+    .footer-wsp img {
+        width: 15%;
+        position: fixed;
+        bottom: 0;
+        right: 0;
+    }
+
+    .footer-wsp img {
+        width: 6%;
+        position: fixed;
+        bottom: 0;
+        right: 0;
+    }
+}
