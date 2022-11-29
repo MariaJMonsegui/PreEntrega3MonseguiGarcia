@@ -145,5 +145,47 @@
                 font-size: 20px;
             }
         }
+
+        .main-contenedor2 {
+            display: grid;
+            grid-template-columns: 2fr 2fr 2fr;
+            grid-template-rows: 4fr 4fr;
+            justify-content: center;
+        }
+    
+        .img-11 {
+            width: 100%;
+            margin-bottom: 5%;
+            margin-left: 5%;
+        }
+    
+        .img-21 {
+            width: 100%;
+            margin-bottom: 5%;
+            margin-left: 1%;
+        }
+    
+        .img-31 {
+            width: 100%;
+            margin-bottom: 5%;
+    
+        }
+    
+        .img-41 {
+            width: 100%;
+            margin-bottom: 5%;
+            margin-left: 5%;
+        }
+    
+        .img-51 {
+            width: 100%;
+            margin-bottom: 5%;
+            margin-left: 1%;
+        }
+    
+        .img-61 {
+            width: 100%;
+            margin-bottom: 5%;
+        }
     }
 }
