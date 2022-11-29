@@ -1,15 +1,48 @@
+/*estilos del main home*/
+
 @media screen and (min-width:360px) {
-    /*estilos del main home*/
+
 
     main {
         .main-tituloh1 {
             h1 {
                 font-weight: 300;
                 text-align: center;
-                color: #262626;
+                color: $color-texto;
                 font-size: 1rem;
                 margin-bottom: 10%;
             }
         }
     }
+}
+
+@media screen and (min-width:668px) {
+
+    main{
+        .main-tituloh1 {
+            h1 {
+                font-weight: 300;
+                text-align: center;
+                color:$color-texto;
+                font-size: 1.2rem;
+                margin-bottom: 7%;
+            }
+        }
+    }
+}
+
+@media screen and (min-width:1200px) {
+
+    main{
+        .main-tituloh1 {
+            h1 {
+                font-weight: 300;
+                text-align: center;
+                color:$color-texto;
+                font-size: 1.2rem;
+                margin-bottom: 7%;
+            }
+        }
+    }
+
 }

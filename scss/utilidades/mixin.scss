@@ -1,3 +1,55 @@
-//mixin del titulo seguinos
+//mixin de ahover para mi header
 
+@mixin ahover {
+    color: black;
+    font-weight: bold;
+}
 
+//mixin de ahover para mi footer
+
+@mixin h2footer {
+    font-weight: 300;
+    text-align: center;
+    color: $color-texto;
+}
+
+@mixin h2a {
+    color: inherit;
+    font-weight: inherit;
+    font-size: inherit;
+    text-decoration: none;
+}
+
+@mixin footerfondo {
+    background-color: $color-fondo;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+    padding-top: 0.5rem;
+    padding-bottom: 1.5rem;
+    margin-top: 2rem;
+}
+
+@mixin h3footer {
+    font-weight: 500;
+    font-size: 1rem;
+    text-align: center;
+    margin-left: 20%;
+}
+
+@mixin lifooter {
+    color: $color-texto-footer;
+    text-align: center;
+    font-weight: 100;
+    margin-bottom: 0.5%;
+    list-style: none;
+}
+
+//mixin de ahover para main home
+
+@mixin h1main {
+    font-weight: 300;
+    text-align: center;
+    color: $color-texto;
+}
