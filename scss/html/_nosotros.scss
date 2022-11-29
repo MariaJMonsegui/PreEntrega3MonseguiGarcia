@@ -1,0 +1,20 @@
+/*estilos main nosotros*/
+
+@media screen and (min-width:360px){
+    .main-titulo {
+        background-color: $color-fondo;
+        height: 100px;
+        text-align: center;
+        padding-top: 2.5rem;
+
+        h1 {
+            font-weight: 300;
+            text-align: center;
+            color: $color-texto;
+            font-size: 17px;
+        }
+    }
+
+    
+
+}

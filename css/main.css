@@ -254,7 +254,62 @@
     width: 100%;
     margin-bottom: 5%; } }
 
+/*estilos main nosotros*/
+@media screen and (min-width: 360px) {
+  .main-titulo {
+    background-color: #ddddd8;
+    height: 100px;
+    text-align: center;
+    padding-top: 2.5rem; }
+    .main-titulo h1 {
+      font-weight: 300;
+      text-align: center;
+      color: #262626;
+      font-size: 17px; } }
+
 /*estilos main contacto*/
+@media screen and (min-width: 360px) {
+  main .main-titulo {
+    background-color: #ddddd8;
+    height: 100px;
+    text-align: center;
+    padding-top: 2.5rem; }
+    main .main-titulo h1 {
+      font-weight: 300;
+      text-align: center;
+      color: #262626;
+      font-size: 17px; }
+  main .form-ancho {
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 5%; }
+  main .form-boton {
+    background-color: #ddddd8; } }
+
+@media screen and (min-width: 668px) {
+  main .main-titulo {
+    background-color: #ddddd8;
+    height: 200px;
+    text-align: center;
+    padding-top: 6rem; }
+    main .main-titulo h1 {
+      font-weight: 300;
+      text-align: center;
+      color: #262626;
+      font-size: 20px; } }
+
+@media screen and (min-width: 1200px) {
+  main .main-titulo {
+    background-color: #ddddd8;
+    height: 200px;
+    text-align: center;
+    padding-top: 6rem; }
+    main .main-titulo h1 {
+      font-weight: 300;
+      text-align: center;
+      color: #262626;
+      font-size: 20px; } }
+
 @media screen and (min-width: 360px) {
   /*Estilos del header*/
   header {
