@@ -10,9 +10,7 @@
             padding-top: 2.5rem;
 
             h1 {
-                font-weight: 300;
-                text-align: center;
-                color: $color-texto;
+                @include h1main;
                 font-size: 17px;
             }
         }
@@ -59,9 +57,7 @@
             padding-top: 6rem;
 
             h1 {
-                font-weight: 300;
-                text-align: center;
-                color: $color-texto;
+                @include h1main;
                 font-size: 19px;
             }
         }
@@ -120,9 +116,7 @@
             padding-top: 6rem;
 
             h1 {
-                font-weight: 300;
-                text-align: center;
-                color: $color-texto;
+                @include h1main;
                 font-size: 20px;
             }
         }
@@ -132,6 +126,7 @@
             grid-template-columns: 3fr 3fr 3fr;
             grid-template-rows: 4fr 4fr;
             justify-content: center;
+            align-items: center;
         }
     
         .img-1 {

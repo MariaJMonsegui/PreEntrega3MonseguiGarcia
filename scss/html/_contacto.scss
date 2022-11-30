@@ -1,6 +1,7 @@
 /*estilos main contacto*/
 
 @media screen and (min-width:360px) {
+    
     main {
         .main-titulo {
             background-color: $color-fondo;
@@ -9,9 +10,7 @@
             padding-top: 2.5rem;
 
             h1 {
-                font-weight: 300;
-                text-align: center;
-                color: $color-texto;
+                @include h1main;
                 font-size: 17px;
             }
         }
@@ -38,9 +37,7 @@
             padding-top: 6rem;
 
             h1 {
-                font-weight: 300;
-                text-align: center;
-                color: $color-texto;
+                @include h1main;
                 font-size: 20px;
             }
         }
@@ -56,9 +53,7 @@
             padding-top: 6rem;
 
             h1 {
-                font-weight: 300;
-                text-align: center;
-                color: $color-texto;
+                @include h1main;
                 font-size: 20px;
             }
         }

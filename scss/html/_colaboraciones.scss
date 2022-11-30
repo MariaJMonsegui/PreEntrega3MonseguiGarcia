@@ -10,9 +10,7 @@
             padding-top: 2.5rem;
 
             h1 {
-                font-weight: 300;
-                text-align: center;
-                color: $color-texto;
+                @include h1main;
                 font-size: 17px;
             }
         }
@@ -53,9 +51,7 @@
             padding-top: 6rem;
 
             h1 {
-                font-weight: 300;
-                text-align: center;
-                color: $color-texto;
+                @include h1main;
                 font-size: 20px;
             }
         }
@@ -76,7 +72,6 @@
         .img-21 {
             width: 100%;
             margin-bottom: 5%;
-            margin-left: 1%;
         }
 
         .img-31 {
@@ -87,8 +82,6 @@
 
         .img-41 {
             width: 100%;
-            margin-bottom: 5%;
-            margin-left: 5%;
         }
 
         .img-51 {
@@ -139,9 +132,7 @@
             padding-top: 6rem;
 
             h1 {
-                font-weight: 300;
-                text-align: center;
-                color: $color-texto;
+                @include h1main;
                 font-size: 20px;
             }
         }

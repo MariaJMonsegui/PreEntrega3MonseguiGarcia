@@ -1,20 +1,133 @@
 /*estilos main nosotros*/
 
-@media screen and (min-width:360px){
-    .main-titulo {
-        background-color: $color-fondo;
-        height: 100px;
-        text-align: center;
-        padding-top: 2.5rem;
+@media screen and (min-width:360px) {
 
-        h1 {
-            font-weight: 300;
+    main {
+        .main-titulo {
+            background-color: $color-fondo;
+            height: 100px;
             text-align: center;
-            color: $color-texto;
-            font-size: 17px;
+            padding-top: 2.5rem;
+
+            h1 {
+                @include h1main;
+                font-size: 17px;
+            }
+
+        }
+
+        section {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            h5 {
+                text-align: center;
+                margin-top: 10%;
+                margin-bottom: 5%;
+            }
+
+            p {
+                width: 80%;
+                text-align: justify;
+                margin-left: 10%;
+            }
+
+            .foto-nosotros {
+                display: none;
+            }
         }
     }
+}
 
-    
+@media screen and (min-width:668px) {
+    main {
+        .main-titulo {
+            background-color: $color-fondo;
+            height: 200px;
+            text-align: center;
+            padding-top: 6rem;
 
+            h1 {
+                @include h1main;
+                font-size: 20px;
+            }
+        }
+
+        section {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            h5 {
+                text-align: center;
+                margin-top: 10%;
+                margin-bottom: 5%;
+            }
+
+            p {
+                width: 80%;
+                text-align: justify;
+                margin-left: 10%;
+                margin-right: 20%;
+            }
+
+            .foto-nosotros {
+                display: none;
+            }
+        }
+    }
+}
+
+@media screen and (min-width:1200px) {
+    main {
+        .main-titulo {
+            background-color: $color-fondo;
+            height: 200px;
+            text-align: center;
+            padding-top: 6rem;
+
+            h1 {
+                @include h1main;
+                font-size: 20px;
+            }
+        }
+
+        section {
+            display: grid;
+            grid-template-columns: 35% 65%;
+            grid-template-rows: 2fr 4fr;
+            grid-template-areas:
+                'h5 img'
+                'p img';
+            justify-content: center;
+            justify-items: center;
+
+            h5 {
+                grid-area: h5;
+                margin-top: 22%;
+                text-align: center;
+                margin-left: 50%;
+            }
+
+            p {
+                grid-area: p;
+                width: 100%;
+                text-align: justify;
+                margin-left: 80%;
+            }
+            
+
+            img {
+                grid-area: img;
+                width: 45%;
+                margin-top: 10%;
+                margin-left: 10%;
+            }
+
+            .foto-nosotros {
+                display: block;
+            }
+        }
+    }
 }

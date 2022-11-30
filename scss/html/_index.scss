@@ -6,9 +6,7 @@
     main {
         .main-tituloh1 {
             h1 {
-                font-weight: 300;
-                text-align: center;
-                color: $color-texto;
+                @include h1main;
                 font-size: 1rem;
                 margin-bottom: 10%;
             }
@@ -21,9 +19,7 @@
     main{
         .main-tituloh1 {
             h1 {
-                font-weight: 300;
-                text-align: center;
-                color:$color-texto;
+                @include h1main;
                 font-size: 1.2rem;
                 margin-bottom: 7%;
             }
@@ -36,9 +32,7 @@
     main{
         .main-tituloh1 {
             h1 {
-                font-weight: 300;
-                text-align: center;
-                color:$color-texto;
+                @include h1main;
                 font-size: 1.2rem;
                 margin-bottom: 7%;
             }
