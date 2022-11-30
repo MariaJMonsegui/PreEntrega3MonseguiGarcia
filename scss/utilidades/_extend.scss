@@ -5,6 +5,17 @@
     padding-top: 2.5rem;
 }
 
-.main-titulo{
+.main-titulo {
     @extend %mainTitulo;
+}
+
+%footer-tituloh2 {
+    color: inherit;
+    font-weight: inherit;
+    font-size: inherit;
+    text-decoration: none;
+}
+
+.footer-tituloh2{
+    @extend %footer-tituloh2
 }
