@@ -73,7 +73,7 @@
     color: #ddddd8;
     text-align: center; }
   main .titulo-img {
-    padding: 40%; } }
+    padding: 35%; } }
 
 @media screen and (min-width: 668px) {
   main .main-titulo {
@@ -552,15 +552,15 @@
   header {
     color: white; }
     header .menu-img {
-      margin-left: 180%; }
+      margin-left: 140%; }
     header .menu-boton {
       margin-left: 55%; }
     header .menu-buscar {
       display: block;
-      margin-right: 600%; }
+      margin-right: 460%; }
     header .header-centrado {
-      margin-left: 25%;
-      gap: 2rem; }
+      margin-left: 23%;
+      gap: 0.8rem; }
       header .header-centrado .menu-sections {
         display: flex;
         align-items: center;
